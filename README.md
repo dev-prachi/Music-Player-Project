@@ -1,0 +1,1 @@
+In the Music Player Project , there are some songs which will play when the play button will be press and there are also previous and next button for changing the song.I made this project using HTML, CSS & JavaScript.
