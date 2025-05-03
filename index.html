@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/9bb91d0357.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <nav>
+        <ul >
+            <li class="txt"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJW1lkZjP0kdVRnxvZGErh2M1DJKcyaqZhMw&s"  alt="Music"> Music Player</li>
+             <!-- <li>Home</li>
+             <li>About </li> -->
+          </ul>
+      </nav>
+      <div class="container" style="background-image: url(https://cdn.pixabay.com/photo/2020/01/31/07/53/man-4807395_1280.jpg); background-position:right;">
+        <div class="songList">
+            <h1>Best Of NCS - No Copyright Sounds</h1>
+            <div class="songItemCont">
+            <div class="songItem">
+             <img alt="song1">
+             <span class="songName">Let me live</span>
+             <span class="songlistplay"><span class="timestamp">04:20 <i id="0" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">03:10 <i id="1" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">02:20 <i id="2" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">01:10 <i id="3" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">04:30 <i id="4" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">03:20 <i id="5" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">04:20 <i id="6" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">02:20 <i id="7" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">02:20 <i id="8" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+             <div class="songItem">
+              <img  alt="song1">
+              <span class="songName">Let me live</span>
+              <span class="songlistplay"><span class="timestamp">02:20 <i id="9" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+             </div>
+          </div>
+        </div>
+        <div class="songBanner"></div>
+      </div>
+      <div class="bottom">
+       <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+       <div class="icons">
+        <i class="fa-solid fa-backward-step" id="previous"></i>
+        <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-forward-step" id="next"></i>
+       </div>
+       <div class="songInfo">
+        <img src="https://cdn.pixabay.com/animation/2024/01/13/23/46/23-46-52-835_512.gif" width="40px" alt="" id="gif"><span id="masterSongName"></span>
+       </div>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
